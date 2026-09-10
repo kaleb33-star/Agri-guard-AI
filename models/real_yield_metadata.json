@@ -1,0 +1,48 @@
+{
+    "project": "AgriGuard Ethiopia",
+    "model_type": "Extra Trees",
+    "target": "yield_kg_ha",
+    "features": [
+        "region",
+        "crop_type",
+        "year",
+        "area_cultivated_ha",
+        "NDVI_mean",
+        "NDVI_peak",
+        "temperature_mean",
+        "rainfall"
+    ],
+    "categorical_features": [
+        "region",
+        "crop_type"
+    ],
+    "numeric_features": [
+        "year",
+        "area_cultivated_ha",
+        "NDVI_mean",
+        "NDVI_peak",
+        "temperature_mean",
+        "rainfall"
+    ],
+    "training_rows": 280,
+    "test_rows": 37,
+    "training_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+    ],
+    "test_year": 2022,
+    "cross_validation": "TimeSeriesSplit",
+    "cv_splits": 4,
+    "best_cv_rmse": 430.29661462283786,
+    "final_test_mae": 342.9131563028024,
+    "final_test_rmse": 573.1261015899336,
+    "final_test_r2": 0.7557608580105714,
+    "best_parameters": "{'model__max_depth': 10, 'model__min_samples_leaf': 1, 'model__n_estimators': 400}",
+    "data_source": "Etho-Agri + Sentinel-2 + Open-Meteo",
+    "synthetic_data_used": false
+}

@@ -1,0 +1,8 @@
+
+pandas
+numpy
+requests
+earthengine-api
+scikit-learn
+xgboost
+joblib

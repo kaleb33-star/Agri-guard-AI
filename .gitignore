@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.key
+*.pem
+credentials/
+service-account.json
+google-cloud-credentials.json
+data/real_data_cache/
