@@ -1,0 +1,80 @@
+{
+  "project": "AgriGuard Ethiopia",
+  "model_name": "Crop Performance Intelligence",
+  "model_type": "Extra Trees",
+  "task": "3-class classification",
+  "classes": {
+    "0": "Usually Low",
+    "1": "Usually Normal",
+    "2": "Usually Above"
+  },
+  "label_definition": "Historical yield performance relative to the historical yield distribution for the same region and crop.",
+  "thresholds": "33rd percentile and 67th percentile of the historical baseline.",
+  "features": [
+    "region",
+    "crop_type",
+    "year",
+    "area_cultivated_ha",
+    "NDVI_mean",
+    "NDVI_peak",
+    "temperature_mean",
+    "rainfall"
+  ],
+  "categorical_features": [
+    "region",
+    "crop_type"
+  ],
+  "numeric_features": [
+    "year",
+    "area_cultivated_ha",
+    "NDVI_mean",
+    "NDVI_peak",
+    "temperature_mean",
+    "rainfall"
+  ],
+  "data_source": "Etho-Agri + Sentinel-2 + Open-Meteo",
+  "synthetic_data_used": false,
+  "training_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "test_year": 2022,
+  "training_rows": 280,
+  "test_rows": 37,
+  "cross_validation": "Expanding year-based validation. Validation year always follows training years.",
+  "selection_metric": "CV macro F1",
+  "best_model": "Extra Trees",
+  "best_cv_macro_f1": 0.5507377017008865,
+  "test_accuracy": 0.7027027027027027,
+  "test_macro_f1": 0.5019607843137255,
+  "test_macro_precision": 0.5326278659611993,
+  "test_macro_recall": 0.4898550724637681,
+  "confusion_matrix_labels": [
+    "Usually Low",
+    "Usually Normal",
+    "Usually Above"
+  ],
+  "confusion_matrix": [
+    [
+      6,
+      1,
+      3
+    ],
+    [
+      0,
+      0,
+      4
+    ],
+    [
+      1,
+      2,
+      20
+    ]
+  ],
+  "important_note": "Performance labels are derived from observed historical yield. Therefore, this model predicts a yield-performance category rather than independently measuring crop health."
+}

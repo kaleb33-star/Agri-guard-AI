@@ -1,0 +1,38 @@
+region,crop_type,year,yield_kg_ha,actual_performance,predicted_performance,confidence
+Afar,Teff,2022,0.0,Usually Low,Usually Low,0.6979026618424058
+Afar,Maize,2022,775.0,Usually Low,Usually Low,0.6665234909737728
+Afar,Sorghum,2022,480.0,Usually Low,Usually Low,0.7866130610019458
+Amhara,Teff,2022,1915.0,Usually Above,Usually Above,0.8249223704192921
+Amhara,Barely,2022,2254.0,Usually Above,Usually Above,0.8152080682649366
+Amhara,Wheat,2022,2787.0,Usually Above,Usually Above,0.8328951076988135
+Amhara,Maize,2022,4286.0,Usually Above,Usually Above,0.7827139076618208
+Amhara,Sorghum,2022,2654.0,Usually Above,Usually Above,0.8097428633368382
+Amhara,Millet,2022,2600.0,Usually Above,Usually Above,0.8048654207861711
+Amhara,Oats,2022,1415.0,Usually Low,Usually Above,0.5819349365267806
+Oromiya,Teff,2022,1972.0,Usually Above,Usually Above,0.7547731959616633
+Oromiya,Barely,2022,2856.0,Usually Above,Usually Above,0.7510584098374251
+Oromiya,Wheat,2022,3364.0,Usually Above,Usually Above,0.7789927491814258
+Oromiya,Maize,2022,4229.0,Usually Above,Usually Above,0.7476017554171024
+Oromiya,Sorghum,2022,2717.0,Usually Normal,Usually Above,0.5300850776074316
+Oromiya,Millet,2022,2609.0,Usually Above,Usually Above,0.7335744401617201
+Oromiya,Oats,2022,2233.0,Usually Above,Usually Above,0.6226796833783136
+Somalia,Maize,2022,984.0,Usually Low,Usually Low,0.7307411617089545
+Benushangul Gumuz,Teff,2022,1519.0,Usually Above,Usually Above,0.5992748529612073
+Benushangul Gumuz,Maize,2022,4302.0,Usually Above,Usually Above,0.6146563908737852
+Benushangul Gumuz,Sorghum,2022,0.0,Usually Low,Usually Above,0.4060917648296858
+Benushangul Gumuz,Millet,2022,2231.0,Usually Above,Usually Above,0.5812141429912063
+S.N.N.P.R,Teff,2022,1554.0,Usually Above,Usually Above,0.7216729229609747
+S.N.N.P.R,Barely,2022,2350.0,Usually Above,Usually Above,0.7178845962079466
+S.N.N.P.R,Wheat,2022,2867.0,Usually Above,Usually Above,0.726339991423267
+S.N.N.P.R,Maize,2022,3990.0,Usually Normal,Usually Above,0.5529625273656636
+S.N.N.P.R,Sorghum,2022,2497.0,Usually Normal,Usually Above,0.5059598393971259
+S.N.N.P.R,Millet,2022,2355.0,Usually Above,Usually Above,0.6968631458207544
+S.N.N.P.R,Oats,2022,1460.0,Usually Normal,Usually Above,0.6708535811467081
+Gambela,Maize,2022,4528.0,Usually Above,Usually Normal,0.47672800649821967
+Gambela,Sorghum,2022,1207.0,Usually Low,Usually Normal,0.4016193478868661
+Harari,Barely,2022,570.0,Usually Low,Usually Above,0.35616662781460484
+Harari,Wheat,2022,1528.0,Usually Low,Usually Low,0.4572005932778708
+Harari,Maize,2022,3112.0,Usually Above,Usually Normal,0.5071079260026256
+Harari,Sorghum,2022,2208.0,Usually Above,Usually Above,0.5537647427284503
+DIRE DAWA,Maize,2022,1865.0,Usually Above,Usually Low,0.39974549487632643
+DIRE DAWA,Sorghum,2022,1029.0,Usually Low,Usually Low,0.4756149788218669
