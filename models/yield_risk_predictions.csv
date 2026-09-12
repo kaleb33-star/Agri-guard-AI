@@ -1,0 +1,38 @@
+region,crop_type,year,yield_kg_ha,actual_risk,predicted_risk,confidence
+Afar,Teff,2022,0.0,High Risk,High Risk,0.635
+Afar,Maize,2022,775.0,High Risk,High Risk,0.63
+Afar,Sorghum,2022,480.0,High Risk,High Risk,0.765
+Amhara,Teff,2022,1915.0,Low Risk,Low Risk,0.9725
+Amhara,Barely,2022,2254.0,Low Risk,Low Risk,0.9725
+Amhara,Wheat,2022,2787.0,Low Risk,Low Risk,0.955
+Amhara,Maize,2022,4286.0,Low Risk,Low Risk,0.9475
+Amhara,Sorghum,2022,2654.0,Low Risk,Low Risk,0.9375
+Amhara,Millet,2022,2600.0,Low Risk,Low Risk,0.975
+Amhara,Oats,2022,1415.0,Moderate Risk,Low Risk,0.8975
+Oromiya,Teff,2022,1972.0,Low Risk,Low Risk,0.98
+Oromiya,Barely,2022,2856.0,Low Risk,Low Risk,0.9825
+Oromiya,Wheat,2022,3364.0,Low Risk,Low Risk,0.97
+Oromiya,Maize,2022,4229.0,Low Risk,Low Risk,0.9725
+Oromiya,Sorghum,2022,2717.0,Low Risk,Low Risk,0.9525
+Oromiya,Millet,2022,2609.0,Low Risk,Low Risk,0.975
+Oromiya,Oats,2022,2233.0,Low Risk,Low Risk,0.955
+Somalia,Maize,2022,984.0,High Risk,High Risk,0.545
+Benushangul Gumuz,Teff,2022,1519.0,Low Risk,Low Risk,0.7975
+Benushangul Gumuz,Maize,2022,4302.0,Low Risk,Low Risk,0.855
+Benushangul Gumuz,Sorghum,2022,0.0,High Risk,Low Risk,0.595
+Benushangul Gumuz,Millet,2022,2231.0,Low Risk,Low Risk,0.8025
+S.N.N.P.R,Teff,2022,1554.0,Low Risk,Low Risk,0.9925
+S.N.N.P.R,Barely,2022,2350.0,Low Risk,Low Risk,0.9825
+S.N.N.P.R,Wheat,2022,2867.0,Low Risk,Low Risk,0.99
+S.N.N.P.R,Maize,2022,3990.0,Low Risk,Low Risk,0.9575
+S.N.N.P.R,Sorghum,2022,2497.0,Low Risk,Low Risk,0.9575
+S.N.N.P.R,Millet,2022,2355.0,Low Risk,Low Risk,0.985
+S.N.N.P.R,Oats,2022,1460.0,Low Risk,Low Risk,0.735
+Gambela,Maize,2022,4528.0,Low Risk,Low Risk,0.67
+Gambela,Sorghum,2022,1207.0,High Risk,Low Risk,0.5825
+Harari,Barely,2022,570.0,High Risk,High Risk,0.565
+Harari,Wheat,2022,1528.0,High Risk,High Risk,0.5875
+Harari,Maize,2022,3112.0,Low Risk,Low Risk,0.615
+Harari,Sorghum,2022,2208.0,Low Risk,Low Risk,0.6275
+DIRE DAWA,Maize,2022,1865.0,Low Risk,Moderate Risk,0.37
+DIRE DAWA,Sorghum,2022,1029.0,High Risk,High Risk,0.4275

@@ -1,0 +1,80 @@
+{
+  "project": "AgriGuard Ethiopia",
+  "model_name": "Yield Risk Intelligence",
+  "model_type": "Random Forest",
+  "task": "3-class classification",
+  "classes": {
+    "0": "Low Risk",
+    "1": "Moderate Risk",
+    "2": "High Risk"
+  },
+  "risk_definition": "Yield risk is based on the historical yield distribution for the same region and crop.",
+  "thresholds": "Below 10th percentile = High Risk; 10th to 33rd percentile = Moderate Risk; 33rd percentile and above = Low Risk.",
+  "features": [
+    "region",
+    "crop_type",
+    "year",
+    "area_cultivated_ha",
+    "NDVI_mean",
+    "NDVI_peak",
+    "temperature_mean",
+    "rainfall"
+  ],
+  "categorical_features": [
+    "region",
+    "crop_type"
+  ],
+  "numeric_features": [
+    "year",
+    "area_cultivated_ha",
+    "NDVI_mean",
+    "NDVI_peak",
+    "temperature_mean",
+    "rainfall"
+  ],
+  "data_source": "Etho-Agri + Sentinel-2 + Open-Meteo",
+  "synthetic_data_used": false,
+  "training_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "test_year": 2022,
+  "training_rows": 280,
+  "test_rows": 37,
+  "cross_validation": "Expanding year-based validation. Validation year always follows training years.",
+  "selection_metric": "CV macro F1",
+  "best_model": "Random Forest",
+  "best_cv_macro_f1": 0.4899256815732788,
+  "test_accuracy": 0.8918918918918919,
+  "test_macro_f1": 0.6011904761904762,
+  "test_macro_precision": 0.632183908045977,
+  "test_macro_recall": 0.5802469135802469,
+  "confusion_matrix_labels": [
+    "Low Risk",
+    "Moderate Risk",
+    "High Risk"
+  ],
+  "confusion_matrix": [
+    [
+      26,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      7
+    ]
+  ],
+  "important_note": "Risk labels are derived from observed historical yield. The model therefore predicts the likelihood of unusually low yield based on historical outcomes and environmental features."
+}
