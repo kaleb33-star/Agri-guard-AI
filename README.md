@@ -1,5 +1,5 @@
 # 🇪🇹 AgriGuard Ethiopia
-
+{AgriGuard Ethiopia was developed as a summer camp project at EAII (Ethiopian Artificial Intelligence Institute), combining machine learning, satellite data, and weather data to build an agriculture intelligence system for Ethiopia.}
 ## AI-Powered Crop Intelligence for Ethiopian Agriculture
 
 AgriGuard Ethiopia is an agricultural intelligence platform that combines real Ethiopian agricultural data, satellite imagery, weather information, and machine learning to provide crop-related predictions and risk insights.
@@ -8,7 +8,7 @@ The goal is to turn complex agricultural data into information that can be under
 
 ---
 
-## 🌱 What AgriGuard Does
+##  What AgriGuard Does
 
 A farmer provides simple information:
 
@@ -28,7 +28,7 @@ Google Earth Engine and Sentinel-2 imagery are used to calculate vegetation info
 
 The farmer does not need to enter NDVI manually.
 
-### 🌦️ Weather Intelligence
+###  Weather Intelligence
 
 Weather information is obtained from Open-Meteo, including:
 
@@ -37,7 +37,7 @@ Weather information is obtained from Open-Meteo, including:
 
 ---
 
-# 🧠 Three AI Models
+#  Three AI Models
 
 ## Model 1 — Yield Prediction
 
@@ -73,7 +73,7 @@ Classifies yield risk into:
 
 ---
 
-# 🔄 System Architecture
+#  System Architecture
 
 ```text
                  FARMER
