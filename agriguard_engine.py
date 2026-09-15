@@ -1,3 +1,4 @@
+
 """
 ============================================================
 AGRIGUARD ETHIOPIA
@@ -1519,6 +1520,22 @@ def analyze_farm(
 
         "amharic_summary":
             amharic_summary,
+
+        "sms_summary":
+            create_sms_summary({
+                "farmer_input": {
+                    "region": region,
+                    "crop_type": crop_type,
+                    "area_cultivated_ha": float(area_cultivated_ha),
+                    "year": int(year),
+                },
+                "yield_prediction": {
+                    "yield_kg_ha": float(predicted_yield),
+                    "production_kg": float(predicted_production),
+                },
+                "crop_performance": performance,
+                "yield_risk": risk,
+            }),
 
         "data_sources": [
             "Etho-Agri",
